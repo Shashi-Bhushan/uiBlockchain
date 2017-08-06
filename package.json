@@ -1,0 +1,17 @@
+{
+  "name": "ui.blockchain",
+  "version": "0.0.1",
+  "description": "BlockChain UI demo as an Electron Application",
+  "main": "./index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "mocha --reporter spec"
+  },
+  "devDependencies": {
+    "electron": "^1.6.11",
+    "electron-prebuilt": "1.4.13",
+    "mocha": "2.x"
+  },
+  "author": "Shashi Bhushan <sbhushan1@outlook.com>",
+  "license": "MIT"
+}
