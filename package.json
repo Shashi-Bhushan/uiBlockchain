@@ -5,12 +5,15 @@
   "main": "./index.js",
   "scripts": {
     "start": "electron .",
+    "build": "webpack",
     "test": "mocha --reporter spec"
   },
   "devDependencies": {
-    "electron": "^1.6.11",
+    "electron": "1.6.11",
     "electron-prebuilt": "1.4.13",
-    "mocha": "2.x"
+    "glob": "^7.1.1",
+    "mocha": "2.x",
+    "webpack": "3.4.1"
   },
   "author": "Shashi Bhushan <sbhushan1@outlook.com>",
   "license": "MIT"
