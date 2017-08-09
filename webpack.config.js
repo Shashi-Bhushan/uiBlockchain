@@ -47,4 +47,14 @@ const renderer = Object.assign({}, {
     target: 'electron-renderer'
 }, common);
 
-module.exports = [renderer]
+const main = Object.assign({}, {
+    entry: [path.resolve('./js/main/index.js')],
+    plugins: [
+        new webpack.DefinePlugin({
+            VERSION: JSON.stringify(version),
+        }),
+    ],
+    target: 'electron-main'
+}, common);
+
+module.exports = [main, renderer]

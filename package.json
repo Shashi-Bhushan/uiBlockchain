@@ -2,7 +2,7 @@
   "name": "ui.blockchain",
   "version": "0.0.1",
   "description": "BlockChain UI demo as an Electron Application",
-  "main": "./index.js",
+  "main": "dist/main.js",
   "scripts": {
     "start": "electron .",
     "build": "webpack",

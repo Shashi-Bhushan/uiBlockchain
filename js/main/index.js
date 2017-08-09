@@ -22,7 +22,7 @@ function onReady() {
         width : 600
     });
 
-    mainWindow.loadURL('file://' + __dirname + '/app/index.html');
+    mainWindow.loadURL('file://' + __dirname + '/../app/index.html');
 
     // opens up the dev tools
     //mainWindow.webContents.openDevTools();
